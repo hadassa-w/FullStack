@@ -23,14 +23,14 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 
 // הפעלת Swagger
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 // מסך ראשי
-app.MapGet("/", () => "Hello for all!");
+app.MapGet("/", () => "FullStack API is running!");
 
 // Route לשליפת כל המשימות
 app.MapGet("/items", async (ToDoDbContext db) => await db.Items.ToListAsync());
