@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 // const apiUrl = "https://localhost:5047"
-// axios.defaults.baseURL = "https://localhost:7271";
-// axios.defaults.baseURL = "http://localhost:5047/"
-axios.defaults.baseURL = process.env.REACT_APP_API_URL;
+axios.defaults.baseURL = "http://localhost:5047/"
+// axios.defaults.baseURL = process.env.REACT_APP_API_URL";
 
 axios.interceptors.response.use(
   response => response, // אם אין שגיאה, מחזירים את התגובה
