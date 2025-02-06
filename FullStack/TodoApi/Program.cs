@@ -7,10 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // DataBase
 builder.Services.AddDbContext<ToDoDbContext>(
-    //options =>
-    //options.UseMySql(
-    //    builder.Configuration.GetConnectionString("bkbbifeurt9knkw4wjh8"),
-    //    new MySqlServerVersion(new Version(7, 0, 0)))
+    options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("bkbbifeurt9knkw4wjh8"),
+        new MySqlServerVersion(new Version(7, 0, 0)))
     );
 
 // Cors
