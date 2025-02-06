@@ -246,3 +246,4 @@ C:\Users\user1\Documents\תכנות\שיעורים\שנה ב תשפה\פרקטי
 C:\Users\user1\Documents\תכנות\שיעורים\שנה ב תשפה\פרקטי-קוד\תרגולים\3 יא שבט תשפה\Fullstack\TodoApi\obj\Debug\net9.0\TodoApi.pdb
 C:\Users\user1\Documents\תכנות\שיעורים\שנה ב תשפה\פרקטי-קוד\תרגולים\3 יא שבט תשפה\Fullstack\TodoApi\obj\Debug\net9.0\TodoApi.genruntimeconfig.cache
 C:\Users\user1\Documents\תכנות\שיעורים\שנה ב תשפה\פרקטי-קוד\תרגולים\3 יא שבט תשפה\Fullstack\TodoApi\obj\Debug\net9.0\ref\TodoApi.dll
+C:\Users\user1\Documents\תכנות\שיעורים\שנה ב תשפה\פרקטי-קוד\תרגולים\3 יא שבט תשפה\Fullstack\TodoApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
